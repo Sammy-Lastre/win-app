@@ -273,6 +273,11 @@
     <File Path="Publish.bat" />
     <File Path="README.md" />
   </Folder>
+  <Folder Name="/src/" />
+  <Folder Name="/src/ApiClient/">
+    <Project Path="src/ApiClient/ProtonVPN.ApiClient.Tests/ProtonVPN.ApiClient.Tests.csproj" />
+    <Project Path="src/ApiClient/ProtonVPN.ApiClient/ProtonVPN.ApiClient.csproj" />
+  </Folder>
   <Folder Name="/StatisticalEvents/">
     <Project Path="src/StatisticalEvents/ProtonVPN.StatisticalEvents.Contracts/ProtonVPN.StatisticalEvents.Contracts.csproj" />
     <Project Path="src/StatisticalEvents/ProtonVPN.StatisticalEvents.Installers/ProtonVPN.StatisticalEvents.Installers.csproj" />
